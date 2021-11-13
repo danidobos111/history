@@ -1,0 +1,67 @@
+html, body {
+    min-height: 100%;
+}
+body{
+   margin: 0;
+   padding: 0;
+   min-height: 100%;
+   background: aqua;
+   background: radial-gradient(circle, aqua, deepskyblue);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#menu{
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+}
+#wrapper{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+a:link, a:visited, a:focus{
+    color: aqua; 
+}
+a:hover{
+    color: red;
+    border-bottom: 2px white solid;
+}
+ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+#elsop{
+    background-color: black;
+    color: aqua;
+}
+footer{
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+} 
+
+#kep1{
+    width: 400px;
+} 
+
+#kep2{
+    width: 500px;
+}
