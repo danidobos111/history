@@ -5,10 +5,12 @@ body{
    margin: 0;
    padding: 0;
    min-height: 100%;
-   background: aqua;
-   background: radial-gradient(circle, aqua, deepskyblue);
-   background-repeat: no-repeat;
-   background-size: cover;
+  /* background: aqua; 
+  background: radial-gradient(circle, deepskyblue(0.3), deepskyblue(1.0));*/
+  background: rgb(0,128,255);
+  background: radial-gradient(circle, rgba(0,191,255,1) 50%, rgba(0,128,255,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #menu{
     width: 100%;
